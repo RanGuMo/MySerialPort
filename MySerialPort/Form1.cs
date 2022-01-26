@@ -933,5 +933,19 @@ namespace MySerialPort
 
             }
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            string str =SendTbox.Text;
+           // Console.Write(str);
+            serialPort.WriteLine(str);//使用WriteLine就无需 在指令后面添加\r\n
+
+            //发送数据
+            if (serialPort.IsOpen)
+            {
+                serialPort.WriteLine(this.SendTbox.Text);
+            
+            }
+            }
     }
 }
