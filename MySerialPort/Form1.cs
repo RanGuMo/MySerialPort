@@ -938,7 +938,7 @@ namespace MySerialPort
         {
             string str =SendTbox.Text;
            // Console.Write(str);
-            serialPort.WriteLine(str);//使用WriteLine就无需 在指令后面添加\r\n
+            serialPort.WriteLine(str);//使用WriteLine就无需 在指令后面添加\r\n，WriteLine方法的结尾会有一个换行控制符一起输出出来，而Write没有。
 
             //发送数据
             if (serialPort.IsOpen)
