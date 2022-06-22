@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="wpf1" Height="450" Width="800">
-    <Grid>        <Grid.RowDefinitions>
+    <Grid>
+        <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
@@ -19,7 +20,7 @@
             <TextBlock Text="密码："  HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
             <TextBox Name="TxtP" Width="300" Height="30" ></TextBox>
         </StackPanel>
-        <Button Grid.Row="2" Width="200" Height="30" Content="Login" Name="BtnLogin" Click="BtnLogin_Click"></Button>
+        <Button Grid.Row="2" Width="200" Height="30" Content="Login" Name="BtnLogin" Click="BtnLogin_Click"></Button>
 
     </Grid>
 </Window>
