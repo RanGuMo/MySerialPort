@@ -38,7 +38,6 @@ namespace WpfApp1
             set { _loginTypes = value; }
         }
 
-
         public TempModel()
         {
             Account = "root";
