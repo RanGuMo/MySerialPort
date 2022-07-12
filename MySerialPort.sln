@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySerialPort", "MySerialPor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{3B019100-8F95-41E3-B2FF-64D9BF2D5488}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "串口接收测试", "串口接收测试\串口接收测试.csproj", "{C9DB4ABA-0645-48B0-9D63-D0A9173081A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3B019100-8F95-41E3-B2FF-64D9BF2D5488}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B019100-8F95-41E3-B2FF-64D9BF2D5488}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B019100-8F95-41E3-B2FF-64D9BF2D5488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DB4ABA-0645-48B0-9D63-D0A9173081A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DB4ABA-0645-48B0-9D63-D0A9173081A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DB4ABA-0645-48B0-9D63-D0A9173081A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DB4ABA-0645-48B0-9D63-D0A9173081A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
